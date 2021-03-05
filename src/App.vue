@@ -1,18 +1,18 @@
 <template>
   <div class="container">
-    <Header />
+    <Header title="Task tracker" span="world" />
   </div>
 </template>
 
 <script>
-import Header from './components/Header'
+import Header from './components/Header';
 
 export default {
   name: 'App',
   components: {
-    Header
-  }
-}
+    Header,
+  },
+};
 </script>
 
 <style>
